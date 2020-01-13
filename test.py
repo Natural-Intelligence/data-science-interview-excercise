@@ -14,11 +14,10 @@ You are give a dataset of our different campaigns, their keywords, and average p
 5       IDT US         fraud protection services              6.0            1
 6       IDT US      +credit +monitoring +reviews              2.3           10
 
-write a class that - given a campaign name, and n, will return the top 10 most likely n-grams to reach high position,
-and their estimated score.
+write a model that - given a campaign name, and n-gram will return an estimated position or the n-gram.
 
 1) Write the code according to clean-code best practices.
-2) Think about the usability of your API. 
+2) Think about the usability of your API. how do you make it acessible to developers? 
 3) How would you test your code? you dont have to write tests, but be prepared with an answer. 
 
 """
