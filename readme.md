@@ -1,8 +1,3 @@
-import unittest
-import pandas as pd
-import numpy as np
-
-"""
 As a marketing company we are always looking for search terms that will show up in high position. 
 You are given a dataset of our different google campaigns, their keywords, and average position
 
@@ -25,15 +20,3 @@ for input (campaign: "IDT US", keyword: "fraud service") you might return averag
 2) Write a module that will be used by developers to estimate the positions of their ads,
    Think about the usability of your API. how do you make it acessible to developers? 
 3) How would you test your code?
-"""
-
-
-class TestStringMethods(unittest.TestCase):
-
-    def test_dataset(self):
-        dataset = pd.read_csv("dataset.csv")
-        print(dataset.head(10))
-
-
-if __name__ == '__main__':
-    unittest.main()
